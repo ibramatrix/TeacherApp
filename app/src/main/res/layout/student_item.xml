@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:padding="8dp">
+
+    <TextView android:id="@+id/tvStudentName"
+        android:layout_width="0dp" android:layout_weight="3"
+        android:layout_height="wrap_content" android:text="Name"/>
+
+    <TextView android:id="@+id/tvStudentRoll"
+        android:layout_width="0dp" android:layout_weight="2"
+        android:layout_height="wrap_content" android:text="Roll No"/>
+
+    <EditText android:id="@+id/etMarks"
+        android:layout_width="0dp" android:layout_weight="2"
+        android:layout_height="wrap_content" android:inputType="number"/>
+</LinearLayout>
